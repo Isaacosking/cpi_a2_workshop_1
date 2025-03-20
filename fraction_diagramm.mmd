@@ -1,0 +1,15 @@
+classDiagram
+    class Fraction {
+        -int numerateur
+        -int denominateur
+        +Fraction()
+        +Fraction(int num, int den)
+        +int getNumerateur() const
+        +int getDenominateur() const
+        +void setNumerateur(int num)
+        +void setDenominateur(int den)
+        +Fraction add(const Fraction& other) const
+        +Fraction minus(const Fraction& other) const
+        +Fraction multiply(const Fraction& other) const
+        +Fraction divide(const Fraction& other) const
+    }
